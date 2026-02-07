@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            margin: 50px auto;
+            font-family: "Times New Roman", Times, serif;
+            border: 3px solid black;
+            font-size: 27px;
+        }
+        th, td {
+            border: 3px solid black;
+            padding: 10px;
+            text-align: left;
+            font-weight: normal;
+        }
+        .time-table {
+            background-color: red;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+        .hours {
+            background-color: yellow;
+            font-weight: bold;
+            width: 80px;
+            text-align: center;
+        }
+        .day {
+            font-weight: bold;
+            text-align: center;
+        }
+        .lunch {
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .project {
+            background-color: rgb(21, 161, 21);
+            color: yellow;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6" class="time-table ">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6" class="hours">Hours</td>
+                <th class="day">Mon</th>
+                <th class="day">Tue</th>
+                <th class="day">Wed</th>
+                <th class="day">Thu</th>
+                <th class="day">Fri</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <th colspan="5" class="lunch">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2" class="project">Project</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

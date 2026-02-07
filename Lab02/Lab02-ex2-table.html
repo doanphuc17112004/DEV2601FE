@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 1000px;
+            margin: 20px auto;
+            border: 3px solid black;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+        }
+        thead{
+            background-color: red;
+            color: white;
+        }
+        th, td {
+            border: 3px solid black;
+            padding: 8px;
+        }
+        .caption {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: red;
+        }
+        .center-text {
+            text-align: center;
+        }
+        .left-text {
+            text-align: left;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="caption">Chương trình học - ngành lập trình</div>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" style="width: 30%;">Nhóm học phần</th>
+                <th rowspan="2" style="width: 40%;">Môn học</th>
+                <th colspan="2">Số tiết</th>
+            </tr>
+            <tr>
+                <th>Lý thuyết</th>
+                <th>Thực hành</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6" class="center-text">I<br>Tin học văn phòng</td>
+                <td class="left-text">Hệ điều hành Windows</td>
+                <td class="center-text">3</td>
+                <td class="center-text">5</td>
+            </tr>
+            <tr>
+                <td class="left-text">Sử dụng Internet</td>
+                <td class="center-text">3</td>
+                <td class="center-text">5</td>
+            </tr>
+            <tr>
+                <td class="left-text">Soạn thảo văn bản với MS Word</td>
+                <td class="center-text">24</td>
+                <td class="center-text">40</td>
+            </tr>
+            <tr>
+                <td class="left-text">Tạo bài trình diễn với MS PowerPoint</td>
+                <td class="center-text">9</td>
+                <td class="center-text">15</td>
+            </tr>
+            <tr>
+                <td class="left-text">Xử lý số liệu với MS Excel</td>
+                <td class="center-text">24</td>
+                <td class="center-text">40</td>
+            </tr>
+            <tr>
+                <td class="left-text">Tạo trang Web với MS FrontPage</td>
+                <td class="center-text">9</td>
+                <td class="center-text">15</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="center-text">II<br>Kỹ thuật lập trình (VB.NET)</td>
+                <td class="left-text">Nhập môn lập trình</td>
+                <td class="center-text">36</td>
+                <td class="center-text">60</td>
+            </tr>
+            <tr>
+                <td class="left-text">Kỹ thuật lập trình</td>
+                <td class="center-text">36</td>
+                <td class="center-text">60</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
