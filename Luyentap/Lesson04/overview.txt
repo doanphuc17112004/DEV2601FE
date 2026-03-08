@@ -1,0 +1,7 @@
+4. Mức độ ưu tiên css
+    + css viết sau đc ưu tiên sd
+    + |important->id-> class-> tên thuộc tính-> tên thẻ html
+    + bộ chọn càng gần\chi tiết càng đc ưu tiên
+
+5. ctruc chung của css
+    Tên_CSS : gia_trị_css_1 gia_trị_css_2 gia_trị_css_3 ...;

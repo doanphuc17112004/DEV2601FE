@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*tag01 tag02*/
+        #div01 span{
+            color: red;
+        }
+        /*tag01 > tag02*/
+        #div02 > span{
+            color: red;
+        }
+        /*tag01 ~ tag02 tất cả thẻ tag02 đằng sau, bên dưới thẻ tag 01*/
+        #div03> p~span{
+            color: red;
+        }
+        /*tag01 + tag02 tất cả thẻ tag02 ngay sau tag01*/
+        #div04>p + span{
+            color: red;
+        }
+        /*tag01,tag02 tất cả thẻ tag01 và tag02*/
+        #div01, #div02{
+            background-color: red;
+        }
+        span{
+            color: blue;
+        }
+        #tieu-de1{
+            background-color: green;
+        }
+        .tieu-de2{
+            background-color: orchid !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="div01">
+    </div>
+    <hr>
+    <div id="div02">
+    </div>
+    <hr>
+    <div id="div03">
+        <span>tag01-tag02</span>
+        <p>
+            <span>tag01-tag02</span>
+        </p>
+        <span>tag01-tag02</span>
+        <span>tag01-tag02</span>
+        <span>tag01-tag02</span>
+        <span>tag01-tag02</span>
+    </div>
+    <hr>
+    <div id="div04">
+        <span>tag01-tag02</span>
+        <p>
+            <span>tag01-tag02</span>
+        </p>
+        <span>tag01-tag02</span>
+        <span>tag01-tag02</span>
+        <span>tag01-tag02</span>
+        <span>tag01-tag02</span>
+    </div>
+    <h1 id="tieu-de1" class="tieu-de2">Tiêu đề</h1>
+</body>
+</html>
